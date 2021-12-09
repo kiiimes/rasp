@@ -1,0 +1,6 @@
+Sampling eth0 (55 seconds average)...[1G[2K3313270 packets sampled in 55 seconds
+Traffic average for eth0
+
+      rx         2.42 Mbit/s          4574 packets/s
+      tx       674.09 Mbit/s         55667 packets/s
+

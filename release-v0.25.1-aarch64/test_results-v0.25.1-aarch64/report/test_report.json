@@ -1,0 +1,1208 @@
+{
+    "commit_id": "f082a91c5351443c7b802e2a59bf7c1ef10e08a1",
+    "start_time_utc": "2021-11-04 16:28:06.386109",
+    "end_time_utc": "2021-11-04 16:54:14.757937",
+    "duration": 910.024308232002,
+    "test_items": [
+        {
+            "name": "integration_tests/build/test_binary_size.py::test_firecracker_binary_size",
+            "description": "Test if the size of the firecracker binary is within expected ranges.",
+            "outcome": "passed",
+            "duration": 0.2618740840000555,
+            "type": "build",
+            "criteria": "2080000 +/- 5.0% B",
+            "result": "2078904 B",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/build/test_binary_size.py::test_jailer_binary_size",
+            "description": "Test if the size of the jailer binary is within expected ranges.",
+            "outcome": "passed",
+            "duration": 0.00026876599997649464,
+            "type": "build",
+            "criteria": "1338312 +/- 5.0% B",
+            "result": "1327704 B",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/build/test_clippy.py::test_rust_clippy[aarch64-unknown-linux-gnu]",
+            "description": "Fails if clippy generates any error, warnings are ignored.",
+            "outcome": "passed",
+            "duration": 29.514799219999986,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/build/test_clippy.py::test_rust_clippy[aarch64-unknown-linux-musl]",
+            "description": "Fails if clippy generates any error, warnings are ignored.",
+            "outcome": "passed",
+            "duration": 14.562060813000016,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/build/test_unittests.py::test_unittests[aarch64-unknown-linux-gnu]",
+            "description": "Run unit and doc tests for all supported targets.",
+            "outcome": "passed",
+            "duration": 73.83148310000001,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/build/test_unittests.py::test_unittests[aarch64-unknown-linux-musl]",
+            "description": "Run unit and doc tests for all supported targets.",
+            "outcome": "passed",
+            "duration": 53.90367807999996,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_happy_start[ubuntu]",
+            "description": "Test a regular microvm API start sequence.",
+            "outcome": "passed",
+            "duration": 0.30326357199999165,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_put_update_pre_boot[ubuntu]",
+            "description": "Test that PUT updates are allowed before the microvm boots.",
+            "outcome": "passed",
+            "duration": 3.5975274580000587,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_net_api_put_update_pre_boot[ubuntu]",
+            "description": "Test PUT updates on network configurations before the microvm boots.",
+            "outcome": "passed",
+            "duration": 0.5890286410000272,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_put_machine_config[ubuntu]",
+            "description": "Test /machine_config PUT scenarios that unit tests can't cover.",
+            "outcome": "passed",
+            "duration": 0.30993778100003055,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_put_update_post_boot[ubuntu]",
+            "description": "Test that PUT updates are rejected after the microvm boots.",
+            "outcome": "passed",
+            "duration": 0.44334828900002776,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_rate_limiters_api_config[ubuntu]",
+            "description": "Test the Firecracker IO rate limiter API.",
+            "outcome": "passed",
+            "duration": 7.738364258999923,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_patch_pre_boot[ubuntu]",
+            "description": "Tests PATCH updates before the microvm boots.",
+            "outcome": "passed",
+            "duration": 1.6329517570000007,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_patch_post_boot[ubuntu]",
+            "description": "Test PATCH updates after the microvm boots.",
+            "outcome": "passed",
+            "duration": 1.62338296300004,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_drive_patch[ubuntu]",
+            "description": "Test drive PATCH before and after boot.",
+            "outcome": "passed",
+            "duration": 3.539718737000044,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_vsock[ubuntu]",
+            "description": "Test vsock related API commands.",
+            "outcome": "passed",
+            "duration": 0.312121435999984,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_api_balloon[debian_with_ssh_and_balloon]",
+            "description": "Test balloon related API commands.",
+            "outcome": "passed",
+            "duration": 0.876996040999984,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_get_full_config[debian_with_ssh_and_balloon]",
+            "description": "Configure microVM with all resources and get configuration.",
+            "outcome": "passed",
+            "duration": 0.36371956199991473,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_negative_api_lifecycle",
+            "description": "Test some vm lifecycle error scenarios.",
+            "outcome": "passed",
+            "duration": 1.2883603919999587,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_api.py::test_map_private_seccomp_regression[ubuntu_with_ssh]",
+            "description": "Seccomp mmap MAP_PRIVATE regression test.\n\nWhen sending large buffer to an api endpoint there will be an attempt to\ncall mmap with MAP_PRIVATE|MAP_ANONYMOUS. This would result in vmm being\nkilled by the seccomp filter before this PR.",
+            "outcome": "passed",
+            "duration": 0.9020856020000565,
+            "type": "functional",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_rss_memory_lower[debian_with_ssh_and_balloon]",
+            "description": "Check inflating the balloon makes guest use less rss memory.",
+            "outcome": "passed",
+            "duration": 7.650947956999971,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_inflate_reduces_free[debian_with_ssh_and_balloon]",
+            "description": "Check that the output of free in guest changes with inflate.",
+            "outcome": "passed",
+            "duration": 2.4343767530000378,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_deflate_on_oom_true[debian_with_ssh_and_balloon]",
+            "description": "Verify that setting the `deflate_on_oom` to True works correctly.",
+            "outcome": "passed",
+            "duration": 7.0228329360001,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_deflate_on_oom_false[debian_with_ssh_and_balloon]",
+            "description": "Verify that setting the `deflate_on_oom` to False works correctly.",
+            "outcome": "passed",
+            "duration": 4.79285951899999,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_reinflate_balloon[debian_with_ssh_and_balloon]",
+            "description": "Verify that repeatedly inflating and deflating the balloon works.",
+            "outcome": "passed",
+            "duration": 13.704600623999909,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_size_reduction[debian_with_ssh_and_balloon]",
+            "description": "Verify that ballooning reduces RSS usage on a newly booted guest.",
+            "outcome": "passed",
+            "duration": 11.389598938000063,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_stats[debian_with_ssh_and_balloon]",
+            "description": "Verify that balloon stats work as expected.",
+            "outcome": "passed",
+            "duration": 7.115430770999865,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_stats_update[debian_with_ssh_and_balloon]",
+            "description": "Verify that balloon stats update correctly.",
+            "outcome": "passed",
+            "duration": 3.5270713519998935,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_balloon_snapshot",
+            "description": "Test that the balloon works after pause/resume.",
+            "outcome": "passed",
+            "duration": 17.489153865999924,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_snapshot_compatibility",
+            "description": "Test that the balloon serializes correctly.",
+            "outcome": "passed",
+            "duration": 5.924556607000113,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_balloon.py::test_memory_scrub",
+            "description": "Test that the memory is zeroed after deflate.",
+            "outcome": "passed",
+            "duration": 9.437447801999951,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cmd_line_parameters.py::test_describe_snapshot_all_versions",
+            "description": "Test `--describe-snapshot` correctness for all snapshot versions.",
+            "outcome": "passed",
+            "duration": 7.2556204730001355,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cmd_line_start.py::test_config_start_with_api[ubuntu_with_ssh-framework/vm_config.json]",
+            "description": "Test if a microvm configured from file boots successfully.",
+            "outcome": "passed",
+            "duration": 0.37220840700001645,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cmd_line_start.py::test_config_start_no_api[ubuntu_with_ssh-framework/vm_config.json]",
+            "description": "Test microvm start when API server thread is disabled.",
+            "outcome": "passed",
+            "duration": 0.3838135149999289,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cmd_line_start.py::test_config_start_with_limit[ubuntu-framework/vm_config.json]",
+            "description": "Negative test for customised request payload limit.",
+            "outcome": "passed",
+            "duration": 0.5506833699998879,
+            "type": "functional",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cmd_line_start.py::test_config_with_default_limit[ubuntu-framework/vm_config.json]",
+            "description": "Test for request payload limit.",
+            "outcome": "passed",
+            "duration": 0.3849269299998923,
+            "type": "functional",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_concurrency.py::test_run_concurrency[ubuntu_with_ssh, 20 instance(s)]",
+            "description": "Check we can spawn multiple microvms.",
+            "outcome": "passed",
+            "duration": 35.917211198999894,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_cpu_features.py::test_cpu_features[ubuntu_with_ssh]",
+            "description": "Check the CPU features for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 1.9216562710000744,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_rescan_file[ubuntu_with_ssh]",
+            "description": "Verify that rescan works with a file-backed virtio device.",
+            "outcome": "passed",
+            "duration": 2.104026564999913,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_device_ordering[ubuntu_with_ssh]",
+            "description": "Verify device ordering.\n\nThe root device should correspond to /dev/vda in the guest and\nthe order of the other devices should match their configuration order.",
+            "outcome": "passed",
+            "duration": 6.877128242999788,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_rescan_dev[ubuntu_with_ssh]",
+            "description": "Verify that rescan works with a device-backed virtio device.",
+            "outcome": "passed",
+            "duration": 6.5903020890000334,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_non_partuuid_boot[ubuntu_with_ssh]",
+            "description": "Test the output reported by blockdev when booting from /dev/vda.",
+            "outcome": "passed",
+            "duration": 3.7072415550001097,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_partuuid_boot[ubuntu_with_partuuid]",
+            "description": "Test the output reported by blockdev when booting with PARTUUID.",
+            "outcome": "passed",
+            "duration": 2.0216983679999885,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_partuuid_update[ubuntu_with_ssh]",
+            "description": "Test successful switching from PARTUUID boot to /dev/vda boot.",
+            "outcome": "passed",
+            "duration": 2.4473731569999018,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_patch_drive[ubuntu_with_ssh]",
+            "description": "Test replacing the backing filesystem after guest boot works.",
+            "outcome": "passed",
+            "duration": 6.608554094000056,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_no_flush[ubuntu_with_ssh]",
+            "description": "Verify default block ignores flush.",
+            "outcome": "passed",
+            "duration": 2.4931263280000167,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_flush[ubuntu_with_ssh]",
+            "description": "Verify block with flush actually flushes.",
+            "outcome": "passed",
+            "duration": 2.0657623770000555,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_block_default_cache_old_version[ubuntu_with_ssh]",
+            "description": "Verify that saving a snapshot for old versions works correctly.",
+            "outcome": "passed",
+            "duration": 3.4325452880000284,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_drives.py::test_patch_drive_limiter[ubuntu_with_ssh]",
+            "description": "Test replacing the drive rate-limiter after guest boot works.",
+            "outcome": "passed",
+            "duration": 11.760160380000116,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_error_code.py::test_enosys_error_code[minimal_with_initrd]",
+            "description": "Test that ENOSYS error is caught and firecracker exits gracefully.",
+            "outcome": "passed",
+            "duration": 1.9358887440000672,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_no_origin_logs[ubuntu_with_ssh]",
+            "description": "Check that logs do not contain the origin (i.e file and line number).",
+            "outcome": "passed",
+            "duration": 0.38800106899998354,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_no_level_logs[ubuntu_with_ssh]",
+            "description": "Check that logs do not contain the level.",
+            "outcome": "passed",
+            "duration": 0.34512890499991045,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_no_nada_logs[ubuntu_with_ssh]",
+            "description": "Check that logs do not contain either level or origin.",
+            "outcome": "passed",
+            "duration": 0.3846048410000549,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_info_logs[ubuntu_with_ssh]",
+            "description": "Check output of logs when minimum level to be displayed is info.",
+            "outcome": "passed",
+            "duration": 0.36535593400003563,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_warn_logs[ubuntu_with_ssh]",
+            "description": "Check output of logs when minimum level to be displayed is warning.",
+            "outcome": "passed",
+            "duration": 0.39473367799996595,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_error_logs[ubuntu_with_ssh]",
+            "description": "Check output of logs when minimum level of logs displayed is error.",
+            "outcome": "passed",
+            "duration": 0.3942730769999798,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_log_config_failure[ubuntu]",
+            "description": "Check passing invalid FIFOs is detected and reported as an error.",
+            "outcome": "passed",
+            "duration": 0.10018822200004251,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_logging.py::test_api_requests_logs[ubuntu]",
+            "description": "Test that API requests are logged.",
+            "outcome": "passed",
+            "duration": 0.09959715099989808,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_metrics.py::test_flush_metrics[ubuntu]",
+            "description": "Check the `FlushMetrics` vmm action.",
+            "outcome": "passed",
+            "duration": 0.4006968780001898,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_custom_ipv4[ubuntu_with_ssh]",
+            "description": "Test the API for MMDS custom ipv4 support.",
+            "outcome": "passed",
+            "duration": 2.881663392000064,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_json_response[ubuntu_with_ssh]",
+            "description": "Test the MMDS json response.",
+            "outcome": "passed",
+            "duration": 3.1324110189998464,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_imds_response[ubuntu_with_ssh]",
+            "description": "Test the MMDS IMDS response.",
+            "outcome": "passed",
+            "duration": 3.2514038990000245,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_larger_than_mss_payloads[ubuntu_with_ssh]",
+            "description": "Test MMDS content for payloads larger than MSS.",
+            "outcome": "passed",
+            "duration": 3.14270648500019,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_mmds_dummy[ubuntu_with_ssh]",
+            "description": "Test the API and guest facing features of the Micro MetaData Service.",
+            "outcome": "passed",
+            "duration": 0.7850768079999852,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_guest_mmds_hang[ubuntu_with_ssh]",
+            "description": "Test the MMDS json response.",
+            "outcome": "passed",
+            "duration": 2.5546165040000233,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_mmds.py::test_patch_dos_scenario[ubuntu]",
+            "description": "Test the MMDS json endpoint when data store size reaches the limit.",
+            "outcome": "passed",
+            "duration": 0.42359986600013144,
+            "type": "functional",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_net.py::test_high_ingress_traffic[ubuntu_with_ssh]",
+            "description": "Run iperf rx with high UDP traffic.",
+            "outcome": "passed",
+            "duration": 32.867230543000005,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_net_config_space.py::test_net_change_mac_address[ubuntu_with_ssh]",
+            "description": "Test changing the MAC address of the network device.",
+            "outcome": "passed",
+            "duration": 3.4257785510001213,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_pause_resume.py::test_pause_resume",
+            "description": "Test scenario: boot/pause/resume.",
+            "outcome": "passed",
+            "duration": 5.44174044500005,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_pause_resume.py::test_describe_instance",
+            "description": "Test scenario: DescribeInstance different states.",
+            "outcome": "passed",
+            "duration": 2.3787673799999993,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_rtc.py::test_rtc[ubuntu_with_ssh]",
+            "description": "Test RTC functionality on aarch64.",
+            "outcome": "passed",
+            "duration": 2.438179511000044,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_serial_io.py::test_serial_console_login[ubuntu_with_ssh]",
+            "description": "Test serial console login.",
+            "outcome": "passed",
+            "duration": 3.246234491999985,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_serial_io.py::test_serial_dos[ubuntu_with_ssh]",
+            "description": "Test serial console behavior under DoS.",
+            "outcome": "passed",
+            "duration": 1.573322527000073,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_serial_io.py::test_serial_block[ubuntu_with_ssh]",
+            "description": "Test that writing to stdout never blocks the vCPU thread.",
+            "outcome": "passed",
+            "duration": 3.17028660699998,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_shut_down.py::test_reboot[ubuntu_with_ssh]",
+            "description": "Test reboot from guest kernel.",
+            "outcome": "passed",
+            "duration": 2.305376475999992,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_patch_drive_snapshot",
+            "description": "Test scenario: 5 full sequential snapshots.",
+            "outcome": "passed",
+            "duration": 10.463132821000045,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_5_full_snapshots",
+            "description": "Test scenario: 5 full sequential snapshots.",
+            "outcome": "passed",
+            "duration": 56.274976539000136,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_5_inc_snapshots",
+            "description": "Test scenario: 5 incremental snapshots with disk intensive workload.",
+            "outcome": "passed",
+            "duration": 94.15639770100006,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_load_snapshot_failure_handling[ubuntu]",
+            "description": "Test scenario.\n\n1. Create two empty files representing snapshot memory and\nmicrovm state\n2. Try to load a VM snapshot out of the empty files.\n3. Verify that an error was shown and the FC process is terminated.",
+            "outcome": "passed",
+            "duration": 2.2431312420001177,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_cmp_full_and_first_diff_mem",
+            "description": "Test scenario: cmp memory of 2 consecutive full and diff snapshots.",
+            "outcome": "passed",
+            "duration": 9.446958307999921,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_negative_postload_api",
+            "description": "Test APIs fail after loading from snapshot.",
+            "outcome": "passed",
+            "duration": 5.11753206100002,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_negative_snapshot_permissions",
+            "description": "Test missing permission error scenarios.",
+            "outcome": "passed",
+            "duration": 7.165646739000067,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_basic.py::test_negative_snapshot_create",
+            "description": "Test create snapshot before pause.",
+            "outcome": "passed",
+            "duration": 2.3696149719999084,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_version.py::test_create_v0_23_snapshot[ubuntu_with_ssh]",
+            "description": "Exercise creating a snapshot targeting v0.23 on all platforms.",
+            "outcome": "passed",
+            "duration": 0.42450828300002286,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_snapshot_version.py::test_create_invalid_version",
+            "description": "Test scenario: create snapshot targeting invalid version.",
+            "outcome": "passed",
+            "duration": 1.403074666000066,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-True-1]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 6.6106573000001845,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-True-2]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 11.81763913199984,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-True-16]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 78.61671457300008,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-False-1]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 7.066669027999978,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-False-2]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 10.876752822000071,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_topology.py::test_cache_topology[ubuntu_with_ssh-False-16]",
+            "description": "Check the cache topology for a microvm with the specified config.",
+            "outcome": "passed",
+            "duration": 78.74579554999991,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_vsock.py::test_vsock[ubuntu_with_ssh]",
+            "description": "Vsock tests. See the module docstring for a high-level description.",
+            "outcome": "passed",
+            "duration": 10.010197714000014,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_vsock.py::test_vsock_epipe[ubuntu_with_ssh]",
+            "description": "Vsock negative test to validate SIGPIPE/EPIPE handling.",
+            "outcome": "passed",
+            "duration": 4.428691210000125,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/functional/test_vsock.py::test_vsock_transport_reset",
+            "description": "Vsock transport reset test.\n\nSteps:\n1. Start echo server on the guest\n2. Start host workers that ping-pong data between guest and host,\nwithout closing any of them\n3. Pause VM -> Create snapshot -> Resume VM\n4. Check that worker sockets no longer work by setting a timeout\nso the sockets won't block and do a recv operation.\n5. If the recv operation timeouts, the connection was closed.\n   Else, the connection was not closed and the test fails.\n6. Close VM -> Load VM from Snapshot -> check that vsock\n   device is still working.",
+            "outcome": "passed",
+            "duration": 18.157130829000153,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_custom_seccomp.py::test_allow_all[ubuntu]",
+            "description": "Test --seccomp-filter, allowing all syscalls.",
+            "outcome": "passed",
+            "duration": 17.44891286400002,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_custom_seccomp.py::test_working_filter[ubuntu]",
+            "description": "Test --seccomp-filter, rejecting some dangerous syscalls.",
+            "outcome": "passed",
+            "duration": 0.4986611780000203,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_custom_seccomp.py::test_failing_filter[ubuntu]",
+            "description": "Test --seccomp-filter, denying some needed syscalls.",
+            "outcome": "passed",
+            "duration": 1.7265490470001623,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_custom_seccomp.py::test_invalid_bpf[ubuntu_with_ssh-framework/vm_config.json]",
+            "description": "Test that FC does not start, given an invalid binary filter.",
+            "outcome": "passed",
+            "duration": 1.962608308999961,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_default_chroot[ubuntu_with_ssh]",
+            "description": "Test that the code base assigns a chroot if none is specified.",
+            "outcome": "passed",
+            "duration": 0.4650793920000069,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_empty_jailer_id[ubuntu_with_ssh]",
+            "description": "Test that the jailer ID cannot be empty.",
+            "outcome": "passed",
+            "duration": 0.018934171999944738,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_default_chroot_hierarchy[minimal_with_initrd]",
+            "description": "Test the folder hierarchy created by default by the jailer.",
+            "outcome": "passed",
+            "duration": 0.45165109499998835,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_arbitrary_usocket_location[minimal_with_initrd]",
+            "description": "Test arbitrary location scenario for the api socket.",
+            "outcome": "passed",
+            "duration": 0.5766483540000991,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_cgroups[minimal_with_initrd]",
+            "description": "Test the cgroups are correctly set by the jailer.",
+            "outcome": "passed",
+            "duration": 0.46693370299999515,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_node_cgroups[minimal_with_initrd]",
+            "description": "Test the cgroups are correctly set by the jailer.",
+            "outcome": "passed",
+            "duration": 0.6254065910000008,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_args_cgroups[minimal_with_initrd]",
+            "description": "Test the cgroups are correctly set by the jailer.",
+            "outcome": "passed",
+            "duration": 0.45701240300013524,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_args_default_resource_limits[minimal_with_initrd]",
+            "description": "Test the resource limits are correctly set by the jailer.",
+            "outcome": "passed",
+            "duration": 0.6752420610000627,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_args_resource_limits[minimal_with_initrd]",
+            "description": "Test the resource limits are correctly set by the jailer.",
+            "outcome": "passed",
+            "duration": 0.5870423159999518,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_negative_file_size_limit[ubuntu_with_ssh]",
+            "description": "Test creating snapshot file fails when size exceeds `fsize` limit.",
+            "outcome": "passed",
+            "duration": 2.533084578000171,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_negative_no_file_limit[ubuntu_with_ssh]",
+            "description": "Test microVM is killed when exceeding `no-file` limit.",
+            "outcome": "passed",
+            "duration": 0.02616544700003942,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_new_pid_ns_resource_limits[ubuntu_with_ssh]",
+            "description": "Test that Firecracker process inherits jailer resource limits.",
+            "outcome": "passed",
+            "duration": 0.47381740200012246,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_jail.py::test_new_pid_namespace[ubuntu_with_ssh]",
+            "description": "Test that Firecracker is spawned in a new PID namespace if requested.",
+            "outcome": "passed",
+            "duration": 0.48402366499999516,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_ls",
+            "description": "Assert that the seccomp filter denies an unallowed syscall.",
+            "outcome": "passed",
+            "duration": 0.1326499919998696,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_advanced_seccomp",
+            "description": "Test seccompiler-bin with `demo_jailer`.\n\nTest that the demo jailer (with advanced seccomp) allows the harmless demo\nbinary, denies the malicious demo binary and that an empty allowlist\ndenies everything.",
+            "outcome": "passed",
+            "duration": 0.3937091719999444,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_no_seccomp[ubuntu]",
+            "description": "Test Firecracker --no-seccomp.",
+            "outcome": "passed",
+            "duration": 0.3889594559998386,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_level[ubuntu-default]",
+            "description": "Test Firecracker --seccomp-level value.",
+            "outcome": "passed",
+            "duration": 0.3016221690002112,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_level[ubuntu-0]",
+            "description": "Test Firecracker --seccomp-level value.",
+            "outcome": "passed",
+            "duration": 0.8014103790001172,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_level[ubuntu-1]",
+            "description": "Test Firecracker --seccomp-level value.",
+            "outcome": "passed",
+            "duration": 0.8023159340000348,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_level[ubuntu-2]",
+            "description": "Test Firecracker --seccomp-level value.",
+            "outcome": "passed",
+            "duration": 0.8022608129999753,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_seccomp.py::test_seccomp_rust_panic",
+            "description": "Test seccompiler-bin with `demo_panic`.\n\nTest that the Firecracker filters allow a Rust panic to run its\ncourse without triggering a seccomp violation.",
+            "outcome": "passed",
+            "duration": 0.15644378900015,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        },
+        {
+            "name": "integration_tests/security/test_ssbd_mitigation.py::test_ssbd_mitigation[minimal_with_initrd]",
+            "description": "Test that SSBD mitigation is enabled.",
+            "outcome": "passed",
+            "duration": 0.5671931700001096,
+            "type": "",
+            "criteria": "",
+            "result": "",
+            "issue": ""
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+Linux 5.13.0-1010-raspi (oslab) 	11/25/2021 	_aarch64_	(4 CPU)
+
+06:57:40 PM   UID      TGID       TID    %usr %system  %guest   %wait    %CPU   CPU  Command
+06:58:35 PM     0      4117         -   17.09   87.02   65.47    0.07  169.58     1  firecracker
+06:58:35 PM     0         -      4117   12.56   57.05    0.00    0.07   69.62     1  |__firecracker
+06:58:35 PM     0         -      4121    0.00    0.00    0.00    0.00    0.00     3  |__fc_api
+06:58:35 PM     0         -      4123    3.36   31.13   65.47    0.05   99.96     0  |__fc_vcpu 0
+Average:        0      4117         -   17.09   87.02   65.47    0.07  169.58     -  firecracker
+Average:        0         -      4117   12.56   57.05    0.00    0.07   69.62     -  |__firecracker
+Average:        0         -      4121    0.00    0.00    0.00    0.00    0.00     -  |__fc_api
+Average:        0         -      4123    3.36   31.13   65.47    0.05   99.96     -  |__fc_vcpu 0

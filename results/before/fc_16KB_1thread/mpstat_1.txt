@@ -1,0 +1,5 @@
+Linux 5.13.0-1010-raspi (oslab) 	11/25/2021 	_aarch64_	(4 CPU)
+
+04:18:31 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+04:19:26 PM  all    4.26    0.00   22.76    0.03    0.00    1.12    0.00    4.38    0.00   67.44
+Average:     all    4.26    0.00   22.76    0.03    0.00    1.12    0.00    4.38    0.00   67.44

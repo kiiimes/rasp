@@ -1,0 +1,6 @@
+Sampling tap0 (55 seconds average)...[1G[2K1767287 packets sampled in 55 seconds
+Traffic average for tap0
+
+      rx       425.88 Mbit/s         24920 packets/s
+      tx         3.81 Mbit/s          7211 packets/s
+
